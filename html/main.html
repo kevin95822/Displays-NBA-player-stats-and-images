@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NBA Players Stats Tracker & Imgur searcher</title>
+		<style>
+			body, form{
+				margin:570px auto;
+				max-width:800px;
+				overflow-x:hidden;
+				color: black;
+				background-color: transparent;
+				font-size:x-large;
+				font-weight: 1000;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#name{
+				flex-grow:50;
+				margin: 0 20px;
+			}body{
+				background-image : url("../images/nickyoung.webp");
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<form action="search" method="get">
+
+			<fieldset>
+				
+				<legend>NBA Players Stats Tracker & Imgur searcher</legend>
+				<label for="name">Player Name(Full Name):</label>
+				<input id="name" name="name" type="text" placeholder="Rajon Rondo" required/>
+				<input type = "submit" value="Search">
+
+			</fieldset>
+			
+		</form>
+
+	</body>
+
+</html>
